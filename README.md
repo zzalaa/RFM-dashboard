@@ -2,6 +2,8 @@
 
 Online perakende müşteri verilerinin RFM (Recency, Frequency, Monetary) analizi için kapsamlı Streamlit uygulaması. İnteraktif görselleştirmeler ve müşteri segmentasyonu içerir.
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]((https://rfm-data.streamlit.app/))
+ 
 
 📊 Özellikler
 
@@ -52,7 +54,7 @@ cd rfm-analytics-dashboard
 
 Gereksinimleri yükleyin
 
-pip install -r requirements.txt
+ $ pip install -r requirements.txt
 
 Veri dosyanızı ekleyin
 
@@ -60,7 +62,9 @@ OnlineRetail_RFMSCORE.csv dosyanızı proje klasörüne yerleştirin
 
 
 Uygulamayı çalıştırın
-bashstreamlit run app.py
+
+$ streamlit run streamlit_app.py
+
 
 🎯 Kullanım Senaryoları
 
