@@ -1,6 +1,8 @@
 🛍️ RFM Analizi Dashboard'u
+
 Online perakende müşteri verilerinin RFM (Recency, Frequency, Monetary) analizi için kapsamlı Streamlit uygulaması. İnteraktif görselleştirmeler ve müşteri segmentasyonu içerir.
-Show Image
+
+
 📊 Özellikler
 
 RFM Score Analizi: Kapsamlı RFM skorlaması ve müşteri değerlendirmesi
