@@ -46,11 +46,12 @@ pip paket yöneticisi
 Kurulum Adımları
 
 Repository'yi klonlayın
-bashgit clone https://github.com/kullanici-adiniz/rfm-analytics-dashboard.git
+
+git clone https://github.com/your-username/rfm-analytics-dashboard.git
 cd rfm-analytics-dashboard
 
 Gereksinimleri yükleyin
-bashpip install -r requirements.txt
+pip install -r requirements.txt
 
 Veri dosyanızı ekleyin
 
