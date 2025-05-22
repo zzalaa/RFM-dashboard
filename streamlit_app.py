@@ -27,7 +27,7 @@ st.markdown("---")
 st.subheader("📁 Veri Kaynağı Seçimi")
 data_source = st.radio(
     "Veri kaynağınızı seçin:",
-    ["Varsayılan dosyayı kullan (OnlineRetail_RFMSCORE.csv)", "Kendi dosyamı yükle"]
+    ["Varsayılan dosyayı kullan (RFM-dashboard/data/OnlineRetail_RFMSCORE.csv)", "Kendi dosyamı yükle"]
 )
 
 uploaded_file = None
@@ -39,14 +39,14 @@ if data_source == "Kendi dosyamı yükle":
     )
 else:
     # Varsayılan dosya yolu
-    default_file = "OnlineRetail_RFMSCORE.csv"
+    default_file = "RFM-dashboard/data/OnlineRetail_RFMSCORE.csv"
 
-if uploaded_file is not None or data_source == "Varsayılan dosyayı kullan (OnlineRetail_RFMSCORE.csv)":
+if uploaded_file is not None or data_source == "Varsayılan dosyayı kullan (RFM-dashboard/data/OnlineRetail_RFMSCORE.csv)":
     # Veriyi yükle
     try:
-        if data_source == "Varsayılan dosyayı kullan (OnlineRetail_RFMSCORE.csv)":
+        if data_source == "Varsayılan dosyayı kullan (RFM-dashboard/data/OnlineRetail_RFMSCORE.csv)":
             try:
-                df = pd.read_csv("OnlineRetail_RFMSCORE.csv")
+                df = pd.read_csv("RFM-dashboard/data/OnlineRetail_RFMSCORE.csv")
                 st.success("✅ OnlineRetail_RFMSCORE.csv dosyası başarıyla yüklendi!")
             except FileNotFoundError:
                 st.error("❌ OnlineRetail_RFMSCORE.csv dosyası bulunamadı! Lütfen dosyanın aynı klasörde olduğundan emin olun.")
