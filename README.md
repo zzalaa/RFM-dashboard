@@ -47,17 +47,6 @@ CustomerLevel: Müşteri segmenti (Low, Middle, Top)
 Python 3.7 veya üzeri
 pip paket yöneticisi
 
-Kurulum Adımları
-
-Repository'yi klonlayın
-
-git clone https://github.com/your-username/rfm-analytics-dashboard.git
-cd rfm-analytics-dashboard
-
-Gereksinimleri yükleyin
-
- $ pip install -r requirements.txt
-
 Veri dosyanızı ekleyin
 
 OnlineRetail_RFMSCORE.csv dosyanızı proje klasörüne yerleştirin
