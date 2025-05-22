@@ -51,6 +51,7 @@ git clone https://github.com/your-username/rfm-analytics-dashboard.git
 cd rfm-analytics-dashboard
 
 Gereksinimleri yükleyin
+
 pip install -r requirements.txt
 
 Veri dosyanızı ekleyin
