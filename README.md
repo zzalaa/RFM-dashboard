@@ -2,10 +2,7 @@
 
 Online perakende müşteri verilerinin RFM (Recency, Frequency, Monetary) analizi için kapsamlı Streamlit uygulaması. İnteraktif görselleştirmeler ve müşteri segmentasyonu içerir.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]((https://rfm-data.streamlit.app/))
-
 https://rfm-data.streamlit.app/
- 
 
 📊 Özellikler
 
@@ -27,8 +24,11 @@ NumPy: Sayısal hesaplama
 📈 Dashboard Bölümleri
 
 📊 Genel Bakış: Müşteri dağılımı, RFM score histogramları, korelasyon matrisi
+
 🎯 RFM Analizi: 3D dağılım grafikleri, trend analizi, segmentlere göre kutu grafikleri
+
 👥 Müşteri Segmentleri: Detaylı segment analizi, gelir dağılımı, radar grafikleri
+
 📈 Detaylı Analizler: İstatistiksel analizler, en değerli müşteriler, ısı haritaları
 
 📋 Veri Gereksinimleri
